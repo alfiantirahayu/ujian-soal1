@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#app {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 300px;
+}
+
+#display {
+  border: 1px solid;
+  border-style: dotted;
+	border-color: transparent #dee2e6 #dee2e6 #dee2e6 #dee2e6;
+	width: 300px;
+	height: 160px;
+}
+
+.render {
+	padding: 20px;
+}
+
+.render > a {
+	margin-top: 10px;
+}
